@@ -1,0 +1,82 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.container {
+  width: 50%;
+  height: 393px;
+  background-color: black;
+  border: 3pt solid white;
+  position: relative;
+  top: 33px;
+  left: 235px;
+}
+button {
+  background-color: white;
+  border: 0pt solid white;
+  width: 121pt;
+  height: 44pt;
+  border-radius: 13pt;
+  color: black;
+  font-family: fantasy;
+  text-align: center;
+  font-size: 22pt;
+  border: none;
+}
+#Rock {
+  position: absolute;
+  top: 23pt;
+  left: 18pt;
+}
+#Paper {
+  position: absolute;
+  top: 120pt;
+  left: 18pt;
+}
+#Scissors {
+  position: absolute;
+  top: 214pt;
+  left: 18pt;
+}
+.box {
+  height: 385px;
+  position: absolute;
+  width: 110px;
+  background-color: rgb(255, 145, 0);
+  border-right: 3.5pt solid white;
+}
+.box2 {
+  height: 385px;
+  position: absolute;
+  width: 110px;
+  background-color: rgb(255, 145, 0);
+  position: absolute;
+  left: 394px;
+  border-left: 3.5pt solid white;
+}
+#roc {
+  position: absolute;
+  top: 9%;
+  left: 146px;
+}
+#pap {
+  position: absolute;
+  left: 146px;
+  top: 168px;
+}
+#scis {
+  position: absolute;
+  left: 146px;
+  top: 302px;
+}
+#imag {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 133pt;
+  left: 558pt;
+}
